@@ -148,7 +148,9 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
 1. <a name="whitespace">Whitespace</a>
   - Never mix spaces and tabs.
   - When beginning a project, before you write any code, choose between soft indents (spaces) or real tabs, consider this **law**.
-      - For readability, I always recommend setting your editor's indent size to two characters &mdash; this means two spaces or two spaces representing a real tab.
+      - as a rule you should follow the standard the project has set forth
+      - for new projects we should edit javascript with 4 spaces and css
+        with 2 spaces
   - If your editor supports it, always work with the "show invisibles" setting turned on. The benefits of this practice are:
       - Enforced consistency
       - Eliminating end of line whitespace
@@ -410,6 +412,8 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
 
     Whether you prefer single or double shouldn't matter, there is no difference in how JavaScript parses them. What **ABSOLUTELY MUST** be enforced is consistency. **Never mix quotes in the same project. Pick one style and stick with it.**
 
+    -for our purposes, let's say we're using single quotes
+
     F. End of Lines and Empty Lines
 
     Whitespace can ruin diffs and make changesets impossible to read. Consider incorporating a pre-commit hook that removes end-of-line whitespace and blanks spaces on empty lines automatically.
@@ -436,7 +440,7 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
 
     Array:
 
-        Array.isArray( arrayLikeObject )
+        Array.isArray( arrayLikeObject ) or jQuery.isArray or angular.isArray
         (wherever possible)
 
     Node:
@@ -1250,7 +1254,7 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
 
     The basic principle here is:
 
-    ### Don't do stupid shit and everything will be ok.
+    ### Don't do stupid stuff and everything will be ok.
 
     To reinforce this concept, please watch the following presentation:
 
