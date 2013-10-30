@@ -149,8 +149,8 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
   - Never mix spaces and tabs.
   - When beginning a project, before you write any code, choose between soft indents (spaces) or real tabs, consider this **law**.
       - as a rule you should follow the standard the project has set forth
-      - for new projects we should edit javascript with 4 spaces and css
-        with 2 spaces
+      - for new projects we should edit javascript with real tabs, as
+        well as css
   - If your editor supports it, always work with the "show invisibles" setting turned on. The benefits of this practice are:
       - Enforced consistency
       - Eliminating end of line whitespace
